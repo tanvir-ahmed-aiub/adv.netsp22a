@@ -126,6 +126,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Auth\AdminAccess.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -160,6 +161,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UMS.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Database\User.cs">
+      <DependentUpon>UMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\CourseModel.cs" />
+    <Compile Include="Models\Entities\DepartmentCourseModel.cs" />
+    <Compile Include="Models\Entities\DepartmentModel.cs" />
+    <Compile Include="Models\Entities\DepartmentStudentModel.cs" />
+    <Compile Include="Models\Entities\StudentModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -215,6 +224,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\UserList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
