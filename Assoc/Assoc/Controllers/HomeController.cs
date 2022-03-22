@@ -7,6 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using AutoMapper;
 
 namespace Assoc.Controllers
 {
@@ -20,9 +21,13 @@ namespace Assoc.Controllers
             
             UMS_Sp22_AEntities db = new UMS_Sp22_AEntities();
             var dept = (from d in db.Departments where d.Id == 1 select d).FirstOrDefault();
+
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<Department, DepartmentModel>());
+            var mapper = new Mapper(config);
+            var dp = mapper.Map<DepartmentModel>(dept);
             DepartmentModel de = new DepartmentModel();
-            de.Name = dept.Name;
-            de.Id = dept.Id;
+            //de.Name = dept.Name;
+            //de.Id = dept.Id;
             return View(dept);
         }
         [HttpGet]
@@ -72,6 +77,20 @@ namespace Assoc.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+        public ActionResult DepartmentCourse() {
+
+            UMS_Sp22_AEntities db = new UMS_Sp22_AEntities();
+            var dept = (from d in db.Departments where d.Id == 1 select d).FirstOrDefault();
+            var config = new MapperConfiguration(cfg =>
+                {
+                    cfg.CreateMap<Department, DepartmentCourseModel>();
+                    cfg.CreateMap<Cours, CourseModel>();
+                }
+            );
+            var mapper = new Mapper(config);
+            var data = mapper.Map<DepartmentCourseModel>(dept);
+            return View(data);
         }
     }
 }

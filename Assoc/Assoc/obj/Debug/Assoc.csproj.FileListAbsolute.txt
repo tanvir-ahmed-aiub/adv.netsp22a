@@ -79,3 +79,5 @@ C:\Users\Teacher\Desktop\.Net A\Assoc\Assoc\obj\Debug\Assoc.csproj.CoreCompileIn
 C:\Users\Teacher\Desktop\.Net A\Assoc\Assoc\obj\Debug\Assoc.csproj.CopyComplete
 C:\Users\Teacher\Desktop\.Net A\Assoc\Assoc\obj\Debug\Assoc.dll
 C:\Users\Teacher\Desktop\.Net A\Assoc\Assoc\obj\Debug\Assoc.pdb
+C:\Users\Teacher\Desktop\.Net A\Assoc\Assoc\bin\AutoMapper.dll
+C:\Users\Teacher\Desktop\.Net A\Assoc\Assoc\bin\AutoMapper.xml

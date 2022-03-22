@@ -9,6 +9,11 @@ namespace Assoc.Auth
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class AdminAccess : AuthorizeAttribute
     {
+        protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)
+        {
+            filterContext.HttpContext.Response.Redirect("/home/contactc");
+
+        }
         protected override bool AuthorizeCore(HttpContextBase httpContext)
         {
             var authenticated = base.AuthorizeCore(httpContext);
@@ -21,10 +26,6 @@ namespace Assoc.Auth
             return false;
             //return base.AuthorizeCore(httpContext);
         }
-        protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)
-        {
-            filterContext.HttpContext.Response.Redirect("/home/contactc");
-         
-        }
+        
     }
 }
