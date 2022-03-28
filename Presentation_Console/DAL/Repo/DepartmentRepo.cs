@@ -7,11 +7,38 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    class DepartmentRepo
+    public class DepartmentRepo : IRepository<Department, int>
     {
-        public static Department Get(int id) {
-            UMS_Sp22_AEntities db = new UMS_Sp22_AEntities();
+        private UMS_Sp22_AEntities db;
+        public DepartmentRepo(UMS_Sp22_AEntities db)
+        {
+            this.db = db;
+        }
+        public bool Add(Department obj)
+        {
+            db.Departments.Add(obj);
+            if (db.SaveChanges() != 0) return true;
+            return false;
+        }
+
+        public bool Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Edit(Department obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Department Get(int id)
+        {
             return db.Departments.FirstOrDefault(x => x.Id == id);
+        }
+
+        public List<Department> Get()
+        {
+            return db.Departments.ToList();   
         }
     }
 }
