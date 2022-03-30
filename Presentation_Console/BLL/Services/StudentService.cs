@@ -25,5 +25,16 @@ namespace BLL.Services
             };
             return s;
         }
+        public static List<StudentModel> Get() {
+            var sts = DataAccessFactory.StudentDataAccess().Get();
+            List<StudentModel> data = new List<StudentModel>();
+            foreach(var s in sts)
+            {
+                data.Add(new StudentModel() { Id = s.Id, Name = s.Name, DeptId = s.DeptId });
+          
+            }
+            return data;
+
+        }
     }
 }

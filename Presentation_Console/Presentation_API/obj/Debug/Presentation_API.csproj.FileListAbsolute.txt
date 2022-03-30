@@ -72,3 +72,6 @@ C:\Users\Teacher\Desktop\.Net A\Presentation_Console\Presentation_API\obj\Debug\
 C:\Users\Teacher\Desktop\.Net A\Presentation_Console\Presentation_API\obj\Debug\Presentation_API.csproj.CopyComplete
 C:\Users\Teacher\Desktop\.Net A\Presentation_Console\Presentation_API\obj\Debug\Presentation_API.dll
 C:\Users\Teacher\Desktop\.Net A\Presentation_Console\Presentation_API\obj\Debug\Presentation_API.pdb
+C:\Users\Teacher\Desktop\.Net A\Presentation_Console\Presentation_API\bin\System.Web.Cors.dll
+C:\Users\Teacher\Desktop\.Net A\Presentation_Console\Presentation_API\bin\System.Web.Http.Cors.dll
+C:\Users\Teacher\Desktop\.Net A\Presentation_Console\Presentation_API\bin\System.Web.Http.Cors.xml

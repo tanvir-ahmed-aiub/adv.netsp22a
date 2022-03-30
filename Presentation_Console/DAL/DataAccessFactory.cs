@@ -12,7 +12,7 @@ namespace DAL
     {
         static UMS_Sp22_AEntities db = new UMS_Sp22_AEntities();
         public static IRepository<Student,int> StudentDataAccess() {
-            return new StudentRepoV2(db);
+            return new StudentRepo(db);
         }
         public static IRepository<Department,int> DeptDataAccess() {
             return new DepartmentRepo(db);
