@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    public class StudentRepo : IRepository<Student, int>,IAuth
+    public class StudentRepo : IRepository<Student, int>,IAuth<bool>
     {
         private UMS_Sp22_AEntities db;
         public StudentRepo(UMS_Sp22_AEntities db)

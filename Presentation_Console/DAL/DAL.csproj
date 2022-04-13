@@ -61,6 +61,9 @@
     <Compile Include="Database\Student.cs">
       <DependentUpon>UMS.tt</DependentUpon>
     </Compile>
+    <Compile Include="Database\Token.cs">
+      <DependentUpon>UMS.tt</DependentUpon>
+    </Compile>
     <Compile Include="Database\UMS.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -85,6 +88,7 @@
     <Compile Include="Repo\DepartmentRepo.cs" />
     <Compile Include="Repo\StudentRepo.cs" />
     <Compile Include="Repo\StudentRepoV2.cs" />
+    <Compile Include="Repo\TokenRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Database\UMS.edmx">

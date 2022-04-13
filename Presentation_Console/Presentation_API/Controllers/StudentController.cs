@@ -1,4 +1,5 @@
 ﻿using BLL.Services;
+using Presentation_API.Auth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,8 +20,10 @@ namespace Presentation_API.Controllers
             var st = StudentService.Get(id);
             return Request.CreateResponse(HttpStatusCode.OK, st);
         }
+        
         [Route("api/student/")]
         [HttpGet]
+        [AdminAccess]
         public HttpResponseMessage Get()
         {
             var st = StudentService.Get();

@@ -17,8 +17,14 @@ namespace DAL
         public static IRepository<Department,int> DeptDataAccess() {
             return new DepartmentRepo(db);
         }
-        public static IAuth AuthAccess() {
+        public static IAuth<bool> AuthAccess() {
             return new StudentRepo(db);
+        }
+        public static IAuth<Token> AuthDataAccess() {
+            return new TokenRepo(db);
+        }
+        public static IRepository<Token, string> TokenDataAccess() {
+            return new TokenRepo(db);
         }
     }
 }

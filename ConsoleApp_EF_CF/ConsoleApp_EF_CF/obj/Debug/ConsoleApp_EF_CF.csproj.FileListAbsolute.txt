@@ -1,0 +1,14 @@
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\bin\Debug\ConsoleApp_EF_CF.exe.config
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\bin\Debug\ConsoleApp_EF_CF.exe
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\bin\Debug\ConsoleApp_EF_CF.pdb
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\bin\Debug\EntityFramework.dll
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\bin\Debug\EntityFramework.xml
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.csproj.AssemblyReference.cache
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.csproj.CoreCompileInputs.cache
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.csproj.CopyComplete
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.exe
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.pdb
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.Migrations.init.resources
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.csproj.GenerateResource.cache
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.Migrations.Coursetblcreate.resources
+C:\Users\Teacher\Desktop\.Net A\ConsoleApp_EF_CF\ConsoleApp_EF_CF\obj\Debug\ConsoleApp_EF_CF.Migrations.Coursestudentrealtions.resources
